@@ -1,0 +1,62 @@
+.nav-container {
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    background-color: #5A0201;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    border: 0;
+    background-image: linear-gradient(150deg,#3459d4, #6ac7d9, #f2f2f2);
+    border-radius: 8px;
+    color: #5A0201;
+    font-size: 30px;
+    padding: 8px;
+    transition: 2s;
+    margin-left: 25px;
+    margin-top: 3vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imagen {
+    position: absolute;
+    right: 90%;
+    transform: translateX(90%);
+    width: 21vh;
+    height: 13vh;
+    object-fit: contain;
+}
+.imagen-escudo {
+    width: 8vh;
+    height: 1vh;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: space-between;
+      align-items: center;
+    }
+    .imagen{
+        display: none;
+    }
+    .imagen-info, .imagen-escu {
+      height: 40px; /* Ajusta la altura de las imágenes para dispositivos móviles */;
+    }
+  
+    .navbar-logo {
+      font-size: 20px; /* Ajusta el tamaño del logo para dispositivos móviles */
+      margin-bottom: 3vh;
+    }
+  }
+
+
+

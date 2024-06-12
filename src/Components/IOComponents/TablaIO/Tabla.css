@@ -1,0 +1,26 @@
+.tablamadreIO {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, .9);
+}
+  
+.tablamadreIO th, .tablamadreIO td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+  
+.tablamadreIO tr:nth-child(even) {
+  background-color: #e6dde5;
+}
+  
+.tablamadreIO tr:hover {
+  background-color: #aa728c;
+}
+  
+.tablamadreIO th {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #a90076;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.bannerSTK {
+    background-size: cover;
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(99, 183, 226, 0.4), rgba(250, 250, 250, 0.4)), url("EYS.png");
+    z-index: 100;
+}
+
+.bannerSTK p {
+    padding-top: 2%;
+    font-size: 40px;
+    font-style: abhaya-libre;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    .bannerSTK p {
+        font-size: 40px;
+    }
+}
